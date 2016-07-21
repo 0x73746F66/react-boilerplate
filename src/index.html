@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Monash Course Interaction</title>
+    <script src="https://fb.me/react-0.14.0.min.js"></script>
+    <script src="https://fb.me/react-dom-0.14.0.min.js"></script>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1976D2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <base target="_blank">
+    <link rel="manifest" href="manifest.json">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='css/styles.css' rel='stylesheet' type='text/css'>
+    <script>
+        if ('serviceWorker' in navigator) {
+            var port3000 = location.port[0] == 3;
+            navigator.serviceWorker.register('/service-worker'+(port3000?'-dev':'')+'.js');
+        }
+    </script>
+</head>
+<body>
+    <div id="app">
+        <!-- Content -->
+    </div>
+
+    <!-- build:jsx -->
+    <h1>Nothing here, check the console!</h1>
+    <script src="/dist/js/bundle.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js -->
+    <h1>Nothing here, check the console!</h1>
+    <script src="/dist/js/vendor.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "Monash Course Discovery",
+  "short_name": "Monash Course Discovery",
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone",
+  "background_color": "#E3F2FD",
+  "theme_color": "#1976D2"
+}
